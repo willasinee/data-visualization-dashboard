@@ -2,14 +2,14 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: #f88fc7;
-  --secondary-color: #DA70D6;
-  --background-color: #f686cd;
-  --surface-color: #948e8e;
-  --text-color: #FFF0F5;
-  --border-color: #e860fd;
+  --primary-color: #9067C6;    /* ม่วงลาเวนเดอร์เข้ม - สีไฮไลท์หลัก */
+  --secondary-color: #D4BFFF;  /* ม่วงอ่อนพาสเทล - สีเสริม */
+  --background-color: #F8F0FF; /* ม่วงอ่อนมาก - พื้นหลังหลัก */
+  --surface-color: #FFFFFF;   /* ขาวบริสุทธิ์ - พื้นหลังการ์ด */
+  --text-color: #4A4A4A;      /* เทาเข้ม - ตัวหนังสือ */
+  --border-color: #CFCFFF;    /* ฟ้า/ม่วงอ่อน - เส้นขอบ */
+  --nav-hover-color: #EFEAFF; /* ม่วงอ่อนสำหรับ Hover */
 }
-
 body {
   font-family: "Prompt", sans-serif;
   background-color: var(--background-color);;
@@ -31,6 +31,6 @@ body {
 }
 UL,li,a {
     text-decoration: none;
-    color: white;
+    color: rgb(12, 12, 12);
     -moz-text-decoration-line: none;
 }
