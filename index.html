@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <header>
+  <header class="page-header">
     <h1>Data Visualization Dashboard</h1>
+    <div class="user-profile">
+      <span>ยินดีต้อนรับ, Wilasinee</span>
+    </div>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100..900&display=swap"
-      rel="stylesheet"/>
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100..900&display=swap">
+    <link rel="stylesheet" href="style.css">
   </header>
   <body>
-    <aside>
-      <nav>
-        <ul>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Customers</a></li>
-        </ul>
-      </nav>
-    </aside>
-    <main>
-      <div class="card">
-        <h2>ยอดขายรวม</h2>
-        <p>1,234,567 บาท</p>
-      </div>
-      <div class="card">
-        <h2>ผู้ใช้งานใหม่</h2>
-        <p>352 คน</p>
-      </div>
-      <div class="card">
-        <h2>คําสั่งซื้อ</h2>
-        <p>89 รายการ</p>
-      </div>
-      <div class="chart-container">
-        <h2>กราฟแสดงผลยอดขายรายเดือน</h2>
-        <p></p>
-      </div>
-    </main>
+    <div class="Dashboard-container">
+      <aside class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="https://youtu.be/OTUVEahUMbg?si=v-tuehgjaf68BWQT">Dashboard</a></li>
+            <li><a href="https://youtu.be/f_gN2-_UZIs?si=w-GqTzSnqA4e-cZy">Products</a></li>
+            <li><a href="https://youtu.be/hCE9lt-PePY?si=ZaILsRBRo0Qz5e43">Customers</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="main-content">
+        <div class="card">
+          <h2>ยอดขายรวม</h2>
+          <p>1,234,567 บาท</p>
+        </div>
+        <div class="card">
+          <h2>ผู้ใช้งานใหม่</h2>
+          <p>352 คน</p>
+        </div>
+        <div class="card">
+          <h2>คําสั่งซื้อ</h2>
+          <p>89 รายการ</p>
+        </div>
+        <div class="chart-container">
+          <h2>กราฟแสดงผลยอดขายรายเดือน</h2>
+          <p></p>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
