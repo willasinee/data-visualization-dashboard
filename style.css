@@ -37,7 +37,8 @@ body {
   background-color: var(--surface-color);
   padding: 20px;
   border: 1px solid var(--border-color);
-  margin: 10px;
+  border-radius: 9px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05) ;
 }
 
 UL,li,a {
@@ -82,8 +83,25 @@ aside li{
 .main-content{
     flex-grow: 1;
     padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
 }
 
 .sidebar li a:hover{
   background-color: rgb(193, 65, 212);
+}
+
+@media (max-width:768px) {
+  .Dashboard-container{
+    flex-direction: column;
+  }
+  .sidebar{
+    width: 100%;
+    padding: 10px;
+  }
+  .main-content{
+    grid-template-columns: 1fr;
+  }
 }
